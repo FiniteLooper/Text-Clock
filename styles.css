@@ -1,0 +1,36 @@
+/*reset*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+/*Text*/
+a:focus{outline:1px dotted}hr{border:0 #ccc solid;border-top-width:1px;clear:both;height:0}h1{font-size:25px}h2{font-size:23px}h3{font-size:21px}h4{font-size:19px}h5{font-size:17px}h6{font-size:15px}ol{list-style:decimal}ul{list-style:disc}li{margin-left:30px}p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset{margin-bottom:20px}
+
+@font-face {
+	font-family: 'Virgo01Regular';
+	src: url('fonts/virgo-webfont.eot');
+	src: local('☺'), url('fonts/virgo-webfont.woff') format('woff'), url('fonts/virgo-webfont.ttf') format('truetype'), url('fonts/virgo-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font:13px 'Virgo01Regular';
+	background-color:#000;
+	margin:5px;
+}
+
+span{
+	color:#111;
+	opacity:0;
+	font-size:50px;
+	line-height:35px;
+	text-transform:uppercase;
+	margin-right:0.2em;
+	word-spacing: -0.3em;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+
+.on{
+	color:#FFF;
+	text-shadow:#AAA 0 0 20px;
+	-moz-text-shadow:#AAA 0 0 20px;
+	-webkit-text-shadow:#AAA 0 0 20px;
+}
